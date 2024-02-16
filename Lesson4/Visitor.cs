@@ -20,7 +20,6 @@ public class Visitor
         favouriteMeal = visitorMeal;
     }
 
-
     public void ShowInfo()
     {
         Console.WriteLine($"Посетитель с именем {name}, возраст: {age}");

@@ -12,7 +12,6 @@ public class Cafe
     public string? cousine;
     public List<Visitor> visitors = new List<Visitor>();
 
-
     public Cafe(string cafeName)
     {
         name = cafeName;

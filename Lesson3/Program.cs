@@ -9,11 +9,7 @@ public class Program
 
         Console.WriteLine("Введите длину массива");
         string answer = Console.ReadLine();
-        if (int.TryParse(answer, out int length))
-        {
-        
-        }
-        else 
+        if (!int.TryParse(answer, out int length))
         {
             Console.WriteLine("Вам необходимо ввести число");
         }
