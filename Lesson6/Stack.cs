@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lesson6
 {
-    internal class Stack<T>
+    public class Stack<T>
     {
         public List<T> Elements = new List<T>();
 
