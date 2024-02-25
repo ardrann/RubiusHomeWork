@@ -18,8 +18,8 @@ namespace UnitTests
         public void PopSuccessfully()
         {
             var StackForTest = new Stack<int>();
-            StackForTest.Push(1);
             StackForTest.Push(2);
+            StackForTest.Push(3);
             int LengthOfStack = StackForTest.Count;
             StackForTest.Pop();
             int NewLengthOfStack = StackForTest.Count;
